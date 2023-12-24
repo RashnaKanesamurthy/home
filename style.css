@@ -1,0 +1,49 @@
+/* This is the cascading style sheet to style the html files*/
+
+body{
+	background-color: #DBE7F3;
+	font-family: cursive;
+}
+
+.navbar{
+	width:100%;
+	height:100%;
+	text-align:center; 
+	font-family: cursive;
+	background-color: #B1D0E2;
+	padding: 30px
+}
+
+a:visited{
+	color: #018FC7;
+}
+
+a:hover{
+	color: #C28285
+}
+
+.format{
+	display:grid;
+	align-items:top;
+	grid-template-columns:1fr 1fr;
+	column-gap:5px;
+}
+
+.image{
+	text-align:center;
+}
+
+.source{
+	font-size:10px;
+}
+
+.list{
+	color:#018FC7
+}
+
+#emphasize{
+	background-color:#018FC7;
+}
+
+#important{
+	background-color: #018FC7
